@@ -1,5 +1,6 @@
 import React, {Component} from 'react'
 import Modal from './Modal.jsx'
+import '../Styles/ModalContainer.css'
 
 
 class ModalContainer extends Component {
@@ -11,8 +12,10 @@ class ModalContainer extends Component {
 
     render() {
         return (
-            <main>
-                <button onClick={e => {
+            <main className="main-page">
+                <button 
+                className="main-modal-button"
+                onClick={e => {
                     this.showModal(e);
                 }}>
                     Open modal

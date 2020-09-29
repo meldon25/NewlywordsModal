@@ -1,0 +1,19 @@
+.main-page {
+    display: flex;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
+
+.main-modal-button {
+    background-color: #041E29;
+    color: white;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 18px;
+    font-weight: 800;
+    width: 16em;
+    height: 3.5em;
+    border: none;
+    border-radius: 5px;
+}
