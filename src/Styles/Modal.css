@@ -1,0 +1,33 @@
+.modal {
+    position: absolute;
+    border: 1px solid black;
+    background-color: white;
+    width: 400px;
+    height: auto;
+}
+
+.modal .actions {
+    display: flex;
+    justify-content: flex-end;  
+}
+
+.modal .content {
+    display: flex;
+    flex-direction: column;   
+    align-items: center;
+}
+
+.modal .actions .close-button {
+    width: 13px;
+    height: auto;
+    margin-right: 0.5em;
+    margin-top: 0.5em;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
