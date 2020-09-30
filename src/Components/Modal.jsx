@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import PropTypes from 'prop-types'
+import '../Styles/Modal.css'
 
 export default class Modal extends Component {
     onClose = e => {
@@ -12,14 +13,14 @@ export default class Modal extends Component {
         }
         return (
             <div className="modal">
-                <h1>Modal Window</h1>
+                <div className="actions">
+                <img 
+                src="https://i.imgur.com/8JyZh1H.png" 
+                onClick={this.onClose} 
+                className="close-button" />
+                    </div>
                 <div className="content">
                     {this.props.children}
-                </div>
-                <div classname="actions">
-                    <button onClick={this.onClose}>
-                        X
-                    </button>
                 </div>
             </div>
         )

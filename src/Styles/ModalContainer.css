@@ -3,10 +3,12 @@
     top: 50%;
     left: 50%;
     position: absolute;
+    justify-content: center;
     transform: translate(-50%, -50%);
 }
 
 .main-modal-button {
+    cursor: pointer;
     background-color: #041E29;
     color: white;
     font-family: 'Noto Sans JP', sans-serif;
@@ -17,3 +19,36 @@
     border: none;
     border-radius: 5px;
 }
+
+.modal-pic {
+    width: 15em;
+    height: auto;
+}
+
+.modal-header {
+    
+}
+
+.modal-copy {
+    text-align: center;
+    width: 60%;
+    font-family: 'Noto Sans JP', sans-serif;
+    color: rgb(26, 25, 25);
+}
+
+.next-button {
+    cursor: pointer;
+    background-color: #041E29;
+    color: white;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 18px;
+    font-weight: 800;
+    width: 16em;
+    height: 3.5em;
+    border: none;
+    border-radius: 5px;
+}
+ 
+
+
+
