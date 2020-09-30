@@ -18,7 +18,7 @@ export default class Modal extends Component {
         <div className="modal">
           <div className="actions">
             <img
-              src="https://i.imgur.com/8JyZh1H.png"
+              src="https://i.imgur.com/PrYZvKb.png"
               alt="button to close page"
               onClick={e => this.onClose(e)}
               className="close-button" />

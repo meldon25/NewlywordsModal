@@ -9,15 +9,15 @@
 
 #button {
     cursor: pointer;
-    background-color: #041E29;
+    background-color: #022635;
     color: white;
     font-family: 'Noto Sans JP', sans-serif;
     font-size: 18px;
     font-weight: 800;
-    width: 16em;
-    height: 3.5em;
+    width: 14.6em;
+    height: 3.3em;
     border: none;
-    border-radius: 5px;
+    border-radius: 4px;
     outline: none;
 }
 
@@ -50,7 +50,7 @@
     font-family: 'Noto Sans JP', sans-serif;
     color: rgb(40, 40, 40);
     margin-block-start: 0;
-    margin-bottom: 1.7em;
+    margin-bottom: 1.3em;
 
 }
 
