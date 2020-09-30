@@ -1,10 +1,7 @@
 .main-page {
     display: flex;
-    top: 50%;
-    left: 50%;
-    position: absolute;
+    width: 100%;
     justify-content: center;
-    transform: translate(-50%, -50%);
 }
 
 .main-modal-button {
@@ -18,6 +15,8 @@
     height: 3.5em;
     border: none;
     border-radius: 5px;
+    outline: none;
+    margin-top: 23em;
 }
 
 .modal-pic {
@@ -26,14 +25,25 @@
 }
 
 .modal-header {
-    
+    font-family: 'Sorts Mill Goudy', serif;
+    font-weight: 400;
+    font-size: 35px;
+    color: black;
 }
 
 .modal-copy {
     text-align: center;
-    width: 60%;
+    width: 50%;
     font-family: 'Noto Sans JP', sans-serif;
     color: rgb(26, 25, 25);
+    margin-block-start: 0;
+    margin-bottom: 2em;
+
+}
+
+.ellipse {
+    width: 25px;
+    margin-bottom: 5px;
 }
 
 .next-button {
@@ -47,7 +57,9 @@
     height: 3.5em;
     border: none;
     border-radius: 5px;
+    margin-bottom: 30px;
 }
+
  
 
 
