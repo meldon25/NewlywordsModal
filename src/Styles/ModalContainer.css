@@ -4,20 +4,32 @@
     justify-content: center;
 }
 
-.main-modal-button {
+
+/* buttons */
+
+#button {
     cursor: pointer;
-    background-color: #041E29;
+    background-color: #022635;
     color: white;
     font-family: 'Noto Sans JP', sans-serif;
     font-size: 18px;
     font-weight: 800;
-    width: 16em;
-    height: 3.5em;
+    width: 14.6em;
+    height: 3.3em;
     border: none;
-    border-radius: 5px;
+    border-radius: 4px;
     outline: none;
+}
+
+.main-modal-button {
     margin-top: 23em;
 }
+
+.next-button {
+    margin-bottom: 35px;
+}
+
+/* modal content */
 
 .modal-pic {
     width: 15em;
@@ -27,38 +39,26 @@
 .modal-header {
     font-family: 'Sorts Mill Goudy', serif;
     font-weight: 400;
-    font-size: 35px;
+    font-size: 36px;
     color: black;
+    margin-block-start: 0;
 }
 
 .modal-copy {
     text-align: center;
     width: 50%;
     font-family: 'Noto Sans JP', sans-serif;
-    color: rgb(26, 25, 25);
+    color: rgb(40, 40, 40);
     margin-block-start: 0;
-    margin-bottom: 2em;
+    margin-bottom: 1.3em;
 
 }
 
 .ellipse {
-    width: 25px;
+    width: 22px;
     margin-bottom: 5px;
 }
 
-.next-button {
-    cursor: pointer;
-    background-color: #041E29;
-    color: white;
-    font-family: 'Noto Sans JP', sans-serif;
-    font-size: 18px;
-    font-weight: 800;
-    width: 16em;
-    height: 3.5em;
-    border: none;
-    border-radius: 5px;
-    margin-bottom: 30px;
-}
 
  
 
