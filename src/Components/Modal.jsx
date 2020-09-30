@@ -14,7 +14,8 @@ export default class Modal extends Component {
         }
         return (
             <>
-                <div className="modal" aria-hidden="true">
+            <div className="overlay" aria-hidden="true" />
+                <div className="modal">
                     <div className="actions">
                         <img
                             src="https://i.imgur.com/8JyZh1H.png"
@@ -24,8 +25,8 @@ export default class Modal extends Component {
                     <div className="content">
                         {this.props.children}
                     </div>
-                </div>
-                </>              
+                </div>   
+                </>          
         )
     }
 }
